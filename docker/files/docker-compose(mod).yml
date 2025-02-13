@@ -1,0 +1,38 @@
+version: '3.1'
+
+services:
+
+  # Модифицируем этот сервис
+  db:
+    # image: mysql - просто меняем на mysql значение характеристики image
+    image: mysql
+    # Добавим command с плагигном аворизации
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345abc99- # мможно поменять и пароль и любые другие данные
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80  # а по этому графический интерфейс майскуэл
+    environment:
+      - PMA_ARBITRARY=1
+
+  # Добавим новый сервис
+  php:
+    build: ./php  # указываем папку где находится наш докерфаил и команду build: для него(те этот сервис в отдельном докерфаиле)
+    ports:
+      - 8081:80   # укажем другой порт локального сервера(8081 вместо 8080) чтобы не было конфликтов, теперь по этому локалхосту у нас пхп фаил
+
+
+
+
+
+
+
+
+
+
+#
