@@ -1,0 +1,17 @@
+# Пример Dockerfile для продакшена
+FROM node:14
+
+WORKDIR /app
+
+# Копируем package.json и устанавливаем зависимости
+COPY package.json ./
+RUN npm install --only=production
+
+# Копируем код приложения
+COPY . .
+
+# Открываем порт
+EXPOSE 3000
+
+# Команда для запуска приложения в продакшен режиме
+CMD ["npm", "start"]

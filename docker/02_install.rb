@@ -11,7 +11,7 @@ puts '                                            Установка'
 
 puts "                                  Установка Докер на Ubuntu 20.04"
 
-# (?? Таким способом ставится без Docker Compose, потому его нужно установить отдельно, погуглить ??)
+# (!! Таким способом ставится без Docker Compose, потому его нужно установить отдельно)
 
 # 1. Обновим пакеты:
 # $ sudo apt update
@@ -54,6 +54,21 @@ puts "                                  Установка Докер на Ubunt
 # Memory: 46.4M
 # CGroup: /system.slice/docker.service
 # └─24321 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+
+
+puts "                                  Установка Docker Compose на Ubuntu"
+
+# Чтобы установить или обновить плагин Docker Compose, выполните следующие команды:
+# $ sudo apt-get update
+# $ sudo apt-get install docker-compose-plugin
+
+# Убедитесь, что Docker Compose установлен правильно, проверив версию
+# $ docker compose version                 => Docker Compose version vN.N.N
+
+
+
+
 
 
 

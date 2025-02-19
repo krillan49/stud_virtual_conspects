@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  db:
+  image: nouchka/sqlite3
+  volumes:
+    - db_data:/app/db
+
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - RAILS_ENV=development
+    depends_on:
+      - db
+
+volumes:
+  db_data:
