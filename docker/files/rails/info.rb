@@ -17,5 +17,6 @@ puts "                                          Проект на Rails 8"
 # $ docker-compose exec web rails db:create
 # Либо выполнить миграции базы данных
 # $ docker-compose run web rails db:migrate
+# web - имя сервиса в docker-compose.yml
 
 # 7. Открыть приложени по адресу http://localhost:3000
