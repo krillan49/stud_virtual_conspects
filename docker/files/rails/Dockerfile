@@ -1,7 +1,7 @@
 # Используем официальный образ Ruby
 FROM ruby:3.2
 
-# Устанавливаем зависимости для работы с Rails
+# Устанавливаем зависимости для работы с Rails (Node.js)
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
 
 # Устанавливаем зависимые библиотеки

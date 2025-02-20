@@ -12,10 +12,6 @@ puts "                                          Проект на Rails 8"
 
 # 5. Соберите и запустите контейнеры (приложение):
 # $ docker-compose up --build
-# Либо
-# $ docker-compose build
-# $ docker-compose up
-
 
 # 6. Создайте базу данных (?? Постгре ??):
 # $ docker-compose exec web rails db:create

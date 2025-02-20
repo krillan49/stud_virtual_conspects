@@ -5,30 +5,30 @@ puts '                                            Установка'
 # https://docs.docker.com/desktop/setup/install/linux/               - инструкция установки на Линукс
 # https://docs.docker.com/desktop/setup/install/linux/ubuntu/        - инструкция установки на Убунту
 
-# https://www.youtube.com/watch?v=QF4ZF857m44  (1-08-20   установка докер т докеркомпос на Убунту)
+# https://www.youtube.com/watch?v=QF4ZF857m44  (1-08-20   установка докер и докеркомпост на Убунту)
 
 
 
 puts "                                  Установка Докер на Ubuntu 20.04"
 
-# (!! Таким способом ставится без Docker Compose, потому его нужно установить отдельно)
+# (?? Таким способом ставится без Docker Compose, потому его нужно установить отдельно)
 
-# 1. Обновим пакеты:
+# 1. Обновить пакеты:
 # $ sudo apt update
 
-# 2. Установим пакеты, которые назначат право для “apt” пользоваться пакетами по протоколу HTTPS:
+# 2. Установить пакеты, которые назначат право для “apt” пользоваться пакетами по протоколу HTTPS:
 # $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
 
-# 3. После чего установим GPG ключ для репозитория Docker в нашу систему:
+# 3. Установить GPG ключ для репозитория Docker в систему:
 # $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
-# 4. Добавим в APT sources репозиторий Docker (ожидании на установку в репозитории Docker для Ubuntu 20.0):
+# 4. Добавить в APT sources репозиторий Docker (ожидании на установку в репозитории Docker для Ubuntu 20.0):
 # $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 
-# 5. Обновим базу данных пакетами Docker из добавленного нами репозитория:
+# 5. Обновиить базу данных пакетами Docker из добавленного нами репозитория:
 # $ sudo apt update
 
-# 6. Убедимся, что мы собираемся установить его именно из репозитория Docker:
+# 6. Убедимся, что собираемся установить именно из репозитория Docker:
 # $ apt-cache policy docker-ce
 #=>
 # docker-ce:
@@ -37,11 +37,12 @@ puts "                                  Установка Докер на Ubunt
 # Version table:
 # 5:19.03.9~3-0~ubuntu-focal 500
 # 500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
+# ...
 
 # 7. Устанавливаем Docker:
 # $ sudo apt install docker-ce
 
-# 8. Docker установлен на вашу машину и процесс для запуска при загрузке включен. Проверим, что Docker работает:
+# 8. Docker установлен и процесс для запуска при загрузке включен. Проверить, что Docker работает:
 # $ sudo systemctl status docker
 #=>
 # docker.service - Docker Application Container Engine
@@ -59,11 +60,11 @@ puts "                                  Установка Докер на Ubunt
 
 puts "                                  Установка Docker Compose на Ubuntu"
 
-# Чтобы установить или обновить плагин Docker Compose, выполните следующие команды:
+# Команды чтобы установить или обновить плагин Docker Compose:
 # $ sudo apt-get update
 # $ sudo apt-get install docker-compose-plugin
 
-# Убедитесь, что Docker Compose установлен правильно, проверив версию
+# Проверить, что Docker Compose установлен правильно:
 # $ docker compose version                 => Docker Compose version vN.N.N
 
 
