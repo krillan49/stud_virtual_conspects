@@ -58,9 +58,11 @@ puts "                                  Установка Докер на Ubunt
 
 
 
-puts "                                  Установка Docker Compose на Ubuntu"
+puts "                                 Установка Docker Compose v2 на Ubuntu"
 
-# Команды чтобы установить или обновить плагин Docker Compose:
+# docker compose (с пробелом) - это новый вариант compose на Go. Изначальный вариант compose на python, называемый docker-compose (команды были тоже с дефисом) устарел, и разработка перешла на v2. Чтобы установить v2 docker composeкак плагин CLI в Linux, поддерживаемый дистрибутив теперь может установить "apt-get install docker-compose-plugin"
+
+# Команды чтобы установить или v2 Docker Compose как плагин CLI в Linux:
 # $ sudo apt-get update
 # $ sudo apt-get install docker-compose-plugin
 

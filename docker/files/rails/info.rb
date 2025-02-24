@@ -30,3 +30,18 @@ puts "                                          Проект на Rails 8"
 # $ docker compose run web rake db:seed	           - Заполнение базы данных сидами
 # $ docker compose run web bundle	                 - Установка gem-ов. Эта команда добавит gem в Gemfile.lock. После этой команды нужно выполнить сборку контейнера
 # $ docker compose run web rspec spec	             - Запуск тестов rspec
+
+
+
+# (??? --service-ports  ???  проброситиь порты для Rspec Capibara)
+
+
+
+
+
+
+
+
+
+
+#
