@@ -2,6 +2,8 @@ FROM python:3
 
 WORKDIR /usr/src/app
 
+# помещаем фаил requirements.txt(стандартный фаил содержащий библиотеки/зависимости тут библиотеку Джанго) в ./ рабочую директорию, тк мы ее уже установили в WORKDIR, иначе нужно былоб прописать полный путь /usr/src/app
 COPY requirements.txt ./
 
+# берем библиотеки из фаила requirements.txt и устанавливаем их (pip бандлер Питона)
 RUN pip install -r requirements.txt

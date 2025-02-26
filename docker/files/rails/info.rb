@@ -1,5 +1,16 @@
 puts "                                          Проект на Rails 8"
 
+# https://lamphanqg.github.io/2019/01/20/dockerized-capybara.html
+
+# https://dev.to/amree/introduction-to-ruby-on-rails-and-dockerfile-5a29
+# https://dev.to/amree/ruby-on-rails-development-using-docker-o1d
+# https://dev.to/amree/ruby-on-rails-and-docker-for-testing-4n8a
+
+# https://nicolasiensen.github.io/2022-03-11-running-rails-system-tests-with-docker/
+
+# https://dev.to/hint/rails-system-tests-in-docker-4cj1
+
+
 # ( !!! пройти  https://gist.github.com/nav-mike/660712caebe6f6173e067781427d9025)
 
 # 1. Создайте новый Rails проект (если еще не создан):
