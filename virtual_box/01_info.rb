@@ -2,7 +2,7 @@ puts '                                               VirtualBox'
 
 # https://www.virtualbox.org/
 
-# VirtualBox (Oracle VM VirtualBox) — программный продукт виртуализации для операционных систем Windows, Linux, macOS, FreeBSD[8], Solaris/OpenSolaris, ReactOS, DOS и других. При помощи него можно создать виртуальную машину
+# VirtualBox (Oracle VM VirtualBox) — программный продукт виртуализации (Hipervisor) для операционных систем Windows, Linux, macOS, FreeBSD[8], Solaris/OpenSolaris, ReactOS, DOS и других. При помощи него можно создать виртуальную машину
 
 # Виртуальная машина (VM) - это виртуализация/эмуляция физической компьютерной системы. Виртуальные машины основаны на компьютерных архитектурах и обеспечивают функциональность как у физического компьютера
 
@@ -47,4 +47,4 @@ puts '                                               VirtualBox'
 
 
 
-# 
+#

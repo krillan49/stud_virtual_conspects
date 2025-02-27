@@ -6,6 +6,7 @@ puts '                                            Установка'
 # https://docs.docker.com/desktop/setup/install/linux/ubuntu/        - инструкция установки на Убунту
 
 # https://www.youtube.com/watch?v=QF4ZF857m44  (1-08-20   установка докер и докеркомпост на Убунту)
+# https://www.youtube.com/watch?v=O8N1lvkIjig  (20-00     установка докер на Убунту, через запуск 1 скрипта с офф сайта, так же установка на Виндоус)
 
 
 
