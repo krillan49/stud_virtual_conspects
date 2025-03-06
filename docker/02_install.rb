@@ -72,6 +72,16 @@ puts "                                 Установка Docker Compose v2 на
 
 
 
+puts "                           Установка Docker и Docker Compose v2 на Ubuntu скриптом"
+
+# качаем скрипт в фаил get-docker.sh:
+# $ curl -fsSL https://get.docker.com -o get-docker.sh
+
+# запуск скрипта, который все установит
+# $ sh ./get-docker.sh
+
+
+
 
 
 

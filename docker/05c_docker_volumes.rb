@@ -71,7 +71,8 @@ puts '                                               Команды'
 
 # $ docker volume prune             - удаление неиспользуемых Volume
 
-# $ docker volume rm some           - удаление конкретного Volume с названием some
+# $ docker volume rm some                     - удаление конкретного Volume с названием some
+# $ docker volume rm $(docker volume ls -a)   - удаление ?сех? Volume
 
 
 

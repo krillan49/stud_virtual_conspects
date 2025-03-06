@@ -11,3 +11,36 @@ puts '                                          Docker desctop'
 # in use - запущен/используется тоесть создан контейнер по этому образу.
 # Tag - версия образа
 # Там же есть опции для образа - запустить(если еще не запущен) скачать, пушнуть в хаб(мето где хранятся все образы) или удалить
+
+
+
+puts '                                            Portainer'
+
+# https://www.portainer.io/
+
+# https://docs.portainer.io/start/install/server               установка бесплатной версии
+# https://docs.portainer.io/start/install/server/docker/linux
+
+# https://www.youtube.com/watch?v=O8N1lvkIjig       (4-32-00) Гайд по установке и использованию
+
+# Portainer - популярный графический интерфейс для работы с Докером, он сам запускается в Докер-контейнере
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
