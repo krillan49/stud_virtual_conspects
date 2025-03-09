@@ -1,6 +1,6 @@
 puts '                                            Установка'
 
-# На мак и виндоус просто качать установочник и установить
+# На macOS и Windows достаточно просто качать установочник и установить
 
 # https://docs.docker.com/desktop/setup/install/linux/               - инструкция установки на Линукс
 # https://docs.docker.com/desktop/setup/install/linux/ubuntu/        - инструкция установки на Убунту
