@@ -1,4 +1,4 @@
-puts "                                          Проект на Rails 8"
+puts "                                                Rails"
 
 # https://lamphanqg.github.io/2019/01/20/dockerized-capybara.html
 
@@ -10,8 +10,25 @@ puts "                                          Проект на Rails 8"
 
 # https://dev.to/hint/rails-system-tests-in-docker-4cj1
 
+# https://gist.github.com/nav-mike/660712caebe6f6173e067781427d9025  - Использование docker compose с rails + postgresql
 
-# ( !!! пройти  https://gist.github.com/nav-mike/660712caebe6f6173e067781427d9025)
+
+
+puts "                                    Проект на Rails 8 (silver-palm-tree)"
+
+# https://github.com/krillan49/silver-palm-tree/tree/a%23docker_add
+
+# Dockerfile.dev
+# docker_compose.dev
+# capybara.rb
+# rails_helper.rb
+# README.md
+
+# Весь проект норм работает в контейнере, но тесты идут медленно и несколько тестов Сapybara не проходит, хотя локально все проходят (после одного теста точно такой же не проходит, не видит поля формы, хз где проблема в Хотвайр или настройках Капибары)
+
+
+
+puts "                                      Проект на Rails 8 (от чатбота)"
 
 # 1. Создайте новый Rails проект (если еще не создан):
 # $ rails new myapp --database=postgresql
@@ -41,10 +58,6 @@ puts "                                          Проект на Rails 8"
 # $ docker compose run web rake db:seed	           - Заполнение базы данных сидами
 # $ docker compose run web bundle	                 - Установка gem-ов. Эта команда добавит gem в Gemfile.lock. После этой команды нужно выполнить сборку контейнера
 # $ docker compose run web rspec spec	             - Запуск тестов rspec
-
-
-
-# (??? --service-ports  ???  проброситиь порты для Rspec Capibara)
 
 
 
