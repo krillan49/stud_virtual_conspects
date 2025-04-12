@@ -12,6 +12,7 @@ puts '                                               VirtualBox'
 
 
 # https://www.youtube.com/watch?v=hPR9IBsDdwc     - Скачивание, установка, настройка VirtualBox и Ubuntu
+# https://www.youtube.com/watch?v=vY9QNwX_IsY
 # https://www.youtube.com/watch?v=PilOxHmTx4I     - Установка настройка VirtualBox    (про флэшку на 6-42)
 # https://www.youtube.com/watch?v=T8fhv8nkDxQ     - Как увеличить размер виртуального диска VirtualBox
 # https://www.youtube.com/watch?v=_QyjnEIgvxE     - VirtualBox Ошибка E_INVALIDARG (0x80070057)
